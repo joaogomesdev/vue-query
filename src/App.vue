@@ -34,7 +34,7 @@ import { getPokemons } from "./libs/poke-api";
       </div>
           
       <div class="w-full max-w-lg py-2 flex flex-col justify-center items-center text-zinc-700 font-regular text-2xl rounded-xl">
-        <span v-if="isError"  class="font-regular text-2xl text-red-500">Error: {{ error.message }}</span>
+        <span v-if="isError"  class="font-regular text-2xl text-red-500">Error: {{ error }}</span>
       </div>
         
         
