@@ -9,8 +9,8 @@ import { getPokemons } from "./libs/poke-api";
   }
 </script>
 
-<template >
-  <div class="w-screen  min-h-screen bg-zinc-900 py-6 flex flex-col  items-center">
+<template>
+  <div class="w-screen  min-h-screen bg-zinc-900 py-6 flex flex-col  items-center overflow-x-hidden">
     <h1 class="text-6xl text-yellow-300">Pokemons</h1>
    
     <div class="mt-20 flex flex-col justify-center items-center w-full">
